@@ -1,0 +1,46 @@
+# 依赖包目录（体积大，不纳入版本库）
+node_modules/
+vendor/
+
+# 编译 / 构建产物
+dist/
+build/
+.next/
+out/
+target/
+*.exe
+*.dll
+
+# 缓存与临时文件
+.cache/
+tmp/
+temp/
+*.log
+*.tmp
+*.bak
+
+# 编辑器 / 系统生成的杂项
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 环境变量与密钥（敏感信息，绝对不要提交）
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 数据文件（体积大，按需单独管理）
+data/
+*.zip
+*.7z
